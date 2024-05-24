@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/502646584c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo-removebg-preview.png" class="logo" style="width: 100px;">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>HELLO</p>
+            <h1>I'm <span>John Lloyd</span></h1> 
+            <p>IT Student From GRC</p>  
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="40d1b071-8e01-4c17-aeb0-21021d60d8aa.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title" style="color: #00d5ec; font-family: serif; text-align: center;">About Me</h1>
+                <p style="font-family: serif; color: aliceblue;">Let me first introduce myself. My name is John Lloyd Labonite, I'm 21 years old. I'm First year college and currently taking Bachelor of Science and Information Technology at Global Reciprocal Colleges, I acknowledged this journey for practicing more about this course.
+                </p>
+
+                <div class="tab-titles" >
+                    <p class="tab-links active-link" onclick="opentab('skills')" style="font-family: serif;">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" style="font-family: serif;">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')" style="font-family: serif;">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li style="font-family: serif; color: aliceblue;"><span>Memorized Skills</span><br>
+                            Communication,
+                            strategy,
+                            Technology,
+                            Color Theory,
+                            Collaboration Skills,
+                            Planing</li>
+                        <li style="font-family: serif; color: aliceblue;"><span>Practicing Skills</span><br>Painting,
+                            Programming,
+                            Layout,
+                            Sports,
+                            HTML/CSS,
+                            Sketching</li>
+                        <li style="font-family: serif; color: aliceblue;"><span>Gaming app</span><br>Creating gaming offline app</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li style="font-family: serif; color: aliceblue;"><span>2024 - Current</span><br>Event Management</li>
+                        <li style="font-family: serif; color: aliceblue;"><span>2022 - 2023</span><br>Events Designer</li>
+                        <li style="font-family: serif; color: aliceblue;"><span>2020 - 2021</span><br>Helper</li>
+                        <li style="font-family: serif; color: aliceblue;"><span>2018 - 2019</span><br>Service Crew</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li style="font-family: serif; color: aliceblue;"><span>2024</span><br>Bachelor of Science and Information Technology</li>
+                        <li style="font-family: serif; color: aliceblue;"><span>2020</span><br>Technical-Vocational-Livelihood (ICT)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <h1 class="sub-title" style="text-align: center; color: #00d5ec; font-family: serif;">My Services</h1>
+    <div class="container2">
+        <div class="card">
+            <div class="img-skl">
+                <img src="ps.png" alt="">
+            </div>
+            <div class="content-skl">
+                <h2>Adobe Photoshop</h2>
+                <p>Adobe Photoshop is a popular image editing and manipulation software developed by Adobe Systems. It is widely used by professionals and hobbyists alike to create, edit, and enhance digital images.</p>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-skl">
+                <img src="HTML.png" alt="">
+            </div>
+            <div class="content-skl">
+                <h2>HTML</h2>
+                <p>HTML stands for HyperText Markup Language. It is a standard markup language used to create web pages and is the backbone of a website's structure and content..</p>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-skl">
+                <img src="bootstarp.png" alt="">
+            </div>
+            <div class="content-skl">
+                <h2>Bootstrap </h2>
+                <p>Bootstrap is a popular open-source front-end framework for building web applications and websites. It provides a set of pre-designed and customizable HTML, CSS, and JavaScript components that can be used to quickly build responsive, mobile-first, and user-friendly interfaces. </p>
+                
+            </div>
+        </div>
+        <div id="Portfolio">
+            <h1 class="sub-title" style="text-align: center; color: #00d5ec; font-family: serif;">My Portfolio</h1>
+            <div class="container2">
+                <div class="card">
+                    <div class="img-skl">
+                        <img src="work 1.png" alt="">
+                    </div>
+                    <div class="content-skl">
+                        <h2>Adobe PS</h2>
+                        <p>Adobe Photoshop is a popular raster graphics editor used for editing and manipulating digital images. It's widely used by photographers,graphic designers, and artists to create, edit, and enhance images. Here are some key features and uses of Adobe Photoshop.</p>
+                        
+                    </div>
+                </div>
+        <div class="card">
+            <div class="img-skl">
+                <img src="work 2.png" alt="">
+            </div>
+            <div class="content-skl">
+                <h2>GRC web</h2>
+                <p>Creating web Design about GRC Enrollment form to help the students in online Registration and other Transactions. </p>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-skl">
+                <img src="work 3.png" alt="">
+            </div>
+            <div class="content-skl">
+                <h2>HTML/CSS Calendar</h2>
+                <p>An HTML Calendar is a graphical representation of a calendar, created using HyperText Markup Language (HTML) and other technologies like Cascading Style Sheets (CSS) and JavaScript. It's a web-based calendar that displays dates, days, and months in a visually appealing and interactive way.</p>
+               
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-skl">
+                <img src="work 5.png" alt="">
+            </div>
+            <div class="content-skl">
+                <h2>Web Design</h2>
+                <p>Web design is the process of creating visually appealing and user-friendly websites. It involves a combination of technical and creative skills to design and develop a website that meets the needs of its target audience. Web design encompasses various aspects, includings.  </p>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title " style="color: #000000; font-family: serif;">Contact Me</h1>
+                <p style="font-family: serif;"><i class="fa-solid fa-paper-plane"></i>Andeslab18@gmail.com</p>
+                <p style="font-family: serif;"><i class="fa-solid fa-square-phone"></i> 09701944607</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv1.pdf"  download class="btn btn2" style="font-family: serif;">Download CV</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }    
+
+</script>
+
+<script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx1Cf1rFEsqcO-yVlaX-qoKLYtvh2YE360z9P10zqXp2AqdGnhN81xSmnDRQJb_EE4LlQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
